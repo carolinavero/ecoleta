@@ -23,7 +23,6 @@ interface IBGECityResponse {
     nome: string;
 }
 
-
 const CreatePoint = () => {
 
     const [items, setItems] = useState<Item[]>([]);
@@ -139,11 +138,11 @@ const CreatePoint = () => {
         }
 
         await api.post('points', data);
-        alert('Ponto de Coleta cadastrado!');
+        
+        alert('Cadastro concluído!');
         
         history.push('/');
     }
-
 
     return (
         <div id="page-create-point">
