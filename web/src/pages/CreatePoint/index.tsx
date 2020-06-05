@@ -95,12 +95,10 @@ const CreatePoint = () => {
         setSelectedPosition([
             event.latlng.lat,
             event.latlng.lng,
-        ])
-            
+        ]);            
     }
 
     function handleInputChange(event: ChangeEvent<HTMLInputElement>) {
-
         const { name, value } = event.target;
         setFormData({ ...formData, [name]: value });
     }
