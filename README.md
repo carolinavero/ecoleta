@@ -1,5 +1,7 @@
+![Ecoleta](print.png)
+
 # Ecoleta - Next Level Week
-Projeto desenvolvido na Next Level Week #1 utilizando React JS e banco de dados SQLite 3.
+Projeto desenvolvido na Next Level Week #1 da Rocketseat utilizando React JS, React Native e Node.
 
 ## Novos aprendizados
 - TypeScript
@@ -13,4 +15,6 @@ Projeto desenvolvido na Next Level Week #1 utilizando React JS e banco de dados 
 
 
 ## Mobile
+
+
 
